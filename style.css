@@ -1,13 +1,13 @@
-*{
+* {
   font-family: verdana;
   margin: 0;
 }
 
-body{
+body {
   background: #eee;
 }
 
-.wrapper{
+.wrapper {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -15,11 +15,11 @@ body{
 
 /* menu base styles */
 
-nav{
+nav {
   background: #333;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
   padding: 0;
 }
@@ -31,35 +31,33 @@ nav a {
   padding: 10px;
 }
 
-nav a:hover{
+nav a:hover {
   background: #555555;
 }
 
-
-
 /* flex styles */
 
-nav ul{
+nav ul {
   display: flex;
-
 }
 
-
-nav li{
-      flex-grow: 1;
+nav li {
+  flex-grow: 1;
+  width: 50px;
+  height: 20px;
 }
-nav li:nth-child(1){
-  flex-grow: 2;
+nav li:nth-child(1) {
+  flex-grow: 3;
+  background-color: blue;
 }
-nav li:nth-child(2){
-  //flex-grow: 1;
-}
-
-nav li:nth-child(3){
-  //flex-grow: 1;
+nav li:nth-child(2) {
+  background-color: green;
 }
 
+nav li:nth-child(3) {
+  background-color: red;
+}
 
-nav li:nth-child(4){
-  //flex-grow: 1;
+nav li:nth-child(4) {
+  background-color: yellow;
 }
