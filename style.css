@@ -39,15 +39,16 @@ nav a:hover {
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 nav li {
   flex-grow: 1;
-  width: 50px;
   height: 20px;
 }
 nav li:nth-child(1) {
-  flex-grow: 3;
   background-color: blue;
 }
 nav li:nth-child(2) {
